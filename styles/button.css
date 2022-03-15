@@ -3,11 +3,9 @@
   }
   
   .btn {
-    padding: 8px 20px;
+    padding: 8px;
     border-radius: 2px;
-    height: 40px;
-    outline: none;
-    border: none;
+    height: 31px;
     cursor: pointer;
   }
   
@@ -26,11 +24,12 @@
   }
   
   .btn--medium {
-    padding: 8px 20px;
+    padding: 8px;
     font-size: 12px;
     font-family: "Montserrat";
     letter-spacing: 0.0125em;
     font-weight: bold;
+    text-align: center;
   }
   
   .btn--large {

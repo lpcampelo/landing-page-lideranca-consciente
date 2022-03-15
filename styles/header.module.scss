@@ -1,0 +1,44 @@
+.header {
+  background: #1c0f2c;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  position: absolute;
+  width: 100vw;
+  min-width: 1080px;
+  height: 57.16px;
+  left: 0px;
+  top: 0px;
+}
+
+.container_logo {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: inherit;
+  left: 8px;
+  top: 8px;
+}
+
+.container_botoes {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;  
+  max-width: fit-content;
+  position: static;
+
+  > a {
+    min-width: fit-content;
+    padding: 8px;
+  }
+}
+
+.menu_icon {
+  position: absolute;
+  color: #ffffff;
+}
