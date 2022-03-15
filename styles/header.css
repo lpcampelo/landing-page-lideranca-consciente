@@ -1,0 +1,31 @@
+.header {
+  background: #3b1f5c;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 8px 16px 8px 8px;
+  position: absolute;
+  width: 100vw;
+  height: 57.16px;
+  left: 0px;
+  top: 0px;
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 7px;
+  position: static;
+  width: 100vw;
+  height: 41.16px;
+  left: 8px;
+  top: 8px;
+}
+
+.menu-icon {
+  position: absolute;
+  color: #ffffff;
+}

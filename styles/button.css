@@ -1,0 +1,47 @@
+:root {
+    --primary: #f5dd01;
+  }
+  
+  .btn {
+    padding: 8px 20px;
+    border-radius: 2px;
+    height: 40px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .btn--primary {
+    background-color: transparent;
+    color: var(--primary);
+  }
+  
+  .btn--outline {
+    background-color: transparent;
+    color: var(--primary);
+    border: 1px solid var(--primary);
+    transition: all 0.3s ease-out;
+    border-radius: 0.09cm;
+  }
+  
+  .btn--medium {
+    padding: 8px 20px;
+    font-size: 1rem;
+    font-family: "Montserrat";
+    font-weight: bold;
+  }
+  
+  .btn--large {
+    padding: 12px 26px;
+    font-size: 20px;
+  }
+  
+  .btn--large:hover,
+  
+  .btn--medium:hover {
+    transition: all 0.3s ease-out;
+    background: #f5dd01;
+    color: #3b1f5c;
+    border-radius: 0.09cm;
+    transition: 250ms;
+  }

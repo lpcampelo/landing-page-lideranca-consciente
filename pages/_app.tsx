@@ -1,4 +1,6 @@
 import '../styles/globals.css'
+import "../styles/header.css";
+import "../styles/button.css"
 import type { AppProps } from 'next/app'
 
 function MyApp({ Component, pageProps }: AppProps) {
