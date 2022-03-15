@@ -41,6 +41,39 @@ export const Header = () => {
               />
             </a>
           </Link>
+          <Button
+            buttonStyle="btn--outline"
+            buttonSize="btn--medium"
+            path="/"
+            onClick={() => click}
+          >
+            Quem será sua professora
+          </Button>
+          <Button
+            buttonStyle="btn--outline"
+            buttonSize="btn--medium"
+            path="/"
+            onClick={() => click}
+          >
+            Mas Marcela, eu...
+          </Button>
+          <Button
+            buttonStyle="btn--outline"
+            buttonSize="btn--medium"
+            path="/"
+            onClick={() => click}
+          >
+           O que eles dizem
+          </Button>
+          <Button
+            buttonStyle="btn--outline"
+            buttonSize="btn--medium"
+            path="/"
+            onClick={() => click}
+          >
+           Curso
+          </Button>
+          
         </div>
         <div className="menu-icon" onClick={handleClick}>
           <i className={click ? "fas fa-times" : "fas fa-bars"} />

@@ -1,5 +1,5 @@
 :root {
-    --primary: #f5dd01;
+    --primary: #FFFFFF;
   }
   
   .btn {
@@ -22,12 +22,14 @@
     border: 1px solid var(--primary);
     transition: all 0.3s ease-out;
     border-radius: 0.09cm;
+    text-transform: uppercase;
   }
   
   .btn--medium {
     padding: 8px 20px;
-    font-size: 1rem;
+    font-size: 12px;
     font-family: "Montserrat";
+    letter-spacing: 0.0125em;
     font-weight: bold;
   }
   
@@ -40,7 +42,7 @@
   
   .btn--medium:hover {
     transition: all 0.3s ease-out;
-    background: #f5dd01;
+    background: #FFFFFF#FFFFFF#FFFFFF;
     color: #3b1f5c;
     border-radius: 0.09cm;
     transition: 250ms;
