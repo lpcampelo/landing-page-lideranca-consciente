@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import styles from "../styles/header.module.scss";
+import { Botao } from "./botao";
 
 export const Header = () => {
   const [click, setClick] = useState(false);
@@ -39,8 +40,50 @@ export const Header = () => {
                 src="/logo-marcela-franca.png"
               />
             </a>
-          </Link>
-          </div>          
+          </Link>          
+          </div> 
+          <div className={styles.container_botoes}>
+            <Botao
+              buttonStyle="btn--outline"
+              buttonSize="btn--medium"
+              path="/"
+              onClick={() => click}
+            >
+              Quem será sua professora?
+            </Botao>
+            <Botao
+              buttonStyle="btn--outline"
+              buttonSize="btn--medium"
+              path="/"
+              onClick={() => click}
+            >
+              Mas Marcela, eu...
+            </Botao>
+            <Botao
+              buttonStyle="btn--outline"
+              buttonSize="btn--medium"
+              path="/"
+              onClick={() => click}
+            >
+              O que eles dizem
+            </Botao>
+            <Botao
+              buttonStyle="btn--outline"
+              buttonSize="btn--medium"
+              path="/"
+              onClick={() => click}
+            >
+              Curso
+            </Botao>
+            <Botao
+              buttonStyle="btn--outline"
+              buttonSize="btn--medium"
+              path="/"
+              onClick={() => click}
+            >
+              F.A.Q
+            </Botao>
+          </div>         
         {/* <div className="menu-icon" onClick={handleClick}>
           <i className={click ? "fas fa-times" : "fas fa-bars"} />
         </div> */}
