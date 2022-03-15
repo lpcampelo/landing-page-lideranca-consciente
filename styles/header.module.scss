@@ -21,6 +21,13 @@
   height: inherit;
   left: 8px;
   top: 8px;
+
+  img {
+    &:hover {
+      transition: all 0.2s ease-out;
+      opacity: 0.7;
+    }
+  }
 }
 
 .container_botoes {
@@ -28,7 +35,7 @@
   flex: 1 1 auto;
   flex-direction: row;
   justify-content: flex-end;
-  align-items: center;  
+  align-items: center;
   max-width: fit-content;
   position: static;
 

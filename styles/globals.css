@@ -1,8 +1,8 @@
 html,
 body {
-  padding: 0;
+  padding-top: 9px;
   margin: 0;
-  font-family: "Montserrat";
+  font-family: 'Montserrat', sans-serif;
   color: #3b1f5c;
 }
 
@@ -13,4 +13,5 @@ a {
 
 * {
   box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
 }

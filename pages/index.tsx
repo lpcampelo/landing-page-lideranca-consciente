@@ -2,12 +2,13 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
 import { Header } from "../components/header";
-import styles from "../styles/Home.module.css";
+import { Secao1 } from "../components/secao1";
 
 const Home: NextPage = () => {
   return (
-    <div className={styles.header}>
-      <Header/>
+    <div>
+      <Header />
+      <Secao1 />
     </div>
   );
 };
