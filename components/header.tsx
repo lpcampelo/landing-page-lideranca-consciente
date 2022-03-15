@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { Button } from "./button";
 import styles from "../styles/header.module.scss";
 
 export const Header = () => {
@@ -41,49 +40,7 @@ export const Header = () => {
               />
             </a>
           </Link>
-          </div>
-          <div className={styles.container_botoes}>
-            <Button
-              buttonStyle="btn--outline"
-              buttonSize="btn--medium"
-              path="/"
-              onClick={() => click}
-            >
-              Quem será sua professora?
-            </Button>
-            <Button
-              buttonStyle="btn--outline"
-              buttonSize="btn--medium"
-              path="/"
-              onClick={() => click}
-            >
-              Mas Marcela, eu...
-            </Button>
-            <Button
-              buttonStyle="btn--outline"
-              buttonSize="btn--medium"
-              path="/"
-              onClick={() => click}
-            >
-              O que eles dizem
-            </Button>
-            <Button
-              buttonStyle="btn--outline"
-              buttonSize="btn--medium"
-              path="/"
-              onClick={() => click}
-            >
-              Curso
-            </Button>
-            <Button
-              buttonStyle="btn--outline"
-              buttonSize="btn--medium"
-              path="/"
-              onClick={() => click}
-            >
-              F.A.Q
-            </Button>
-          </div>
+          </div>          
         {/* <div className="menu-icon" onClick={handleClick}>
           <i className={click ? "fas fa-times" : "fas fa-bars"} />
         </div> */}

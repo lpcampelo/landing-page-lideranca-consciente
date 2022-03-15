@@ -1,6 +1,5 @@
 import { useState } from "react";
 import styles from "../styles/secao1.module.scss";
-import { Button } from "./button";
 
 export const Secao1 = () => {
   const [click, setClick] = useState(false);
