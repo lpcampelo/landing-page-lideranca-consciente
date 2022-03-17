@@ -1,9 +1,14 @@
 .secao1 {
   height: 812px;
-  background: linear-gradient(180deg, #3B1F5C 28.57%, rgba(59, 31, 92, 0.5) 72.34%, rgba(59, 31, 92, 0) 100%);
+  background: linear-gradient(
+    180deg,
+    #3b1f5c 28.57%,
+    rgba(59, 31, 92, 0.5) 72.34%,
+    rgba(59, 31, 92, 0) 100%
+  );
 
   h4 {
-    margin: -1px 0px 0px 0px;
+    margin: -1px 0px 44px 0px;
     padding-top: 42.84px;
     color: #f5dd01;
     font-weight: 500;
@@ -14,16 +19,22 @@
   }
 }
 
+.container_principal {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+}
+
 .container_texto {
-  height: 170px;
-  width: 394px;
-  margin-top: 126px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 394px;  
   color: #ffffff;
   text-align: justify;
   font-size: 14px;
   font-weight: 300;
   letter-spacing: 0.015em;
-  margin-left: 150px;
 
   button {
     padding: 6px;
@@ -41,4 +52,10 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 5px;
   }
+}
+
+.container_video {
+  width: 562px;
+  height: 396px;
+  background: #c4c4c4;
 }

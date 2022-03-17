@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { useState } from "react";
 import styles from "../styles/secao1.module.scss";
 
@@ -5,8 +6,8 @@ export const Secao1 = () => {
   const [click, setClick] = useState(false);
   return (
     <div className={styles.secao1}>
-      <div>
-        <h4>Liderança Consciente: caminho para o novo mundo!</h4>
+      <h4>Liderança Consciente: caminho para o novo mundo!</h4>
+      <div className={styles.container_principal}>
         <div className={styles.container_texto}>
           <p>
             O mercado mudou seu foco. Hoje, além de expertise, o
@@ -28,12 +29,11 @@ export const Secao1 = () => {
             </span>
             e garanta o seu acesso:
           </p>
-          <button
-            onClick={() => click}
-            type="submit"
-          >
+          <button onClick={() => click} type="submit">
             Quero liderar e me desenvolver!
           </button>
+        </div>
+        <div className={styles.container_video}>          
         </div>
       </div>
     </div>

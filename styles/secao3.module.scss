@@ -1,0 +1,50 @@
+.secao3 {
+  h4 {
+    margin: 32px 0px 0px 0px;
+    font-weight: 600;
+    font-size: 29px;
+    line-height: 35px;
+    text-align: center;
+    letter-spacing: 0.0025em;
+  }
+}
+
+.container_principal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 512px;
+  background-image: url("/fundo-secao-3.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 12px 0px 12px;
+  height: 230px;
+
+  h6 {
+    margin: 10px;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.0015em;
+  }
+
+  p {
+    margin: 0px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: 0.005em;
+    text-align: justify;
+    color: #1c0f2c;
+  }
+}

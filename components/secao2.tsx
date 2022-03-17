@@ -11,7 +11,7 @@ export const Secao2 = () => {
           height="394"
           alt="moldura"
           src="/marcela-moldura.png"
-        ></Image>
+        />
         <div className={styles.texto}>
           <p>
             Olá! Meu nome é Marcela França, criadora do perfil
@@ -59,8 +59,10 @@ export const Secao2 = () => {
       <div className={styles.container}>
         <p className={styles.frase}>
           O dia em que você decidiu —{" "}
-          <span style={{ fontWeight: "800" }}>conscientemente</span> — mudar a
-          sua vida.
+          <span style={{ fontWeight: "800", color: "#3b1f5c" }}>
+            conscientemente
+          </span>{" "}
+          — mudar a sua vida.
         </p>
       </div>
     </div>

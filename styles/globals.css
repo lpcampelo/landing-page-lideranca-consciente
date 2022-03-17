@@ -3,9 +3,7 @@ body {
   min-height: 100vh;
   min-width: 1280px;
   margin: 0;
-  font-family: 'Montserrat', sans-serif;
   color: #3b1f5c;
-  
 }
 
 a {
@@ -15,5 +13,5 @@ a {
 
 * {
   box-sizing: border-box;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
