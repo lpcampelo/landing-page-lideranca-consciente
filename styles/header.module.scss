@@ -1,15 +1,11 @@
 .header {
-  background: #3B1F5C;
+  background: #3b1f5c;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
-  position: absolute;
-  width: 100vw;
-  max-width: 1920px;
+  position: static;
   height: 57.16px;
-  left: 0px;
-  top: 0px;
 }
 
 .container_logo {
@@ -19,8 +15,6 @@
   justify-content: center;
   align-items: center;
   height: inherit;
-  left: 8px;
-  top: 8px;
 
   img {
     &:hover {
