@@ -42,7 +42,7 @@ export const Header = () => {
             </a>
           </Link>          
           </div> 
-          <div className={styles.container_botoes}>
+          {/* <div className={styles.container_botoes}>
             <Botao
               buttonStyle="btn--outline"
               buttonSize="btn--medium"
@@ -83,7 +83,7 @@ export const Header = () => {
             >
               F.A.Q
             </Botao>
-          </div>         
+          </div>          */}
         {/* <div className="menu-icon" onClick={handleClick}>
           <i className={click ? "fas fa-times" : "fas fa-bars"} />
         </div> */}

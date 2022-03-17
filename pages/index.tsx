@@ -7,11 +7,11 @@ import { Secao2 } from "../components/secao2";
 
 const Home: NextPage = () => {
   return (
-    <div>
+    <>
       <Header />
       <Secao1 />
       <Secao2 />
-    </div>
+    </>
   );
 };
 
