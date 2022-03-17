@@ -1,0 +1,39 @@
+.secao2 {
+  margin: -160px;
+  background: transparent;
+  h4 {
+    font-weight: 600;
+    font-size: 29px;
+    line-height: 35px;
+    text-align: center;
+    letter-spacing: 0.0025em;
+  }
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.texto {
+  margin-left: 28px;
+  width: 562px;
+  height: 398px;
+  text-align: justify;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.005em;
+  color: #3b1f5c;
+}
+
+.frase {
+  align-self: center;
+  width: 478px;
+  margin-top: 51px;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 26px;
+  text-align: center;
+  color: #1c0f2c;
+}
