@@ -1,5 +1,5 @@
 .secao2 {
-  margin-top: -160px;
+  margin-top: -250px;
   h4 {
     font-weight: 600;
     font-size: 29px;
@@ -29,9 +29,13 @@
   align-self: center;
   width: 478px;
   margin-top: 51px;
-  font-weight: 600;
-  font-size: 21px;
-  line-height: 26px;
   text-align: center;
-  color: #1c0f2c;
+
+  p {
+    margin: 0px;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 26px;
+    color: #1c0f2c;
+  }
 }

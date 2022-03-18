@@ -1,5 +1,6 @@
 import Image from "next/image";
-import styles from "../styles/secao3.module.scss";
+import ReactPlayer from "react-player";
+import styles from "../styles/secao3.module.scss"
 
 export const Secao3 = () => {
   return (
@@ -25,8 +26,9 @@ export const Secao3 = () => {
               <span style={{ fontWeight: "bold" }}>
                 duas horas em troca de autoconhecimento e liderança
               </span>{" "}
-              bem desenvolvidos, valem muito mais a pena que duas horas no
-              Netflix procrastinando.
+              bem desenvolvidos,{" "}
+              <span style={{ fontWeight: "bold" }}>valem muito</span> mais a
+              pena que duas horas no Netflix procrastinando.
             </p>
           </div>
           <div className={styles.container} style={{ maxWidth: "500px" }}>
@@ -43,7 +45,9 @@ export const Secao3 = () => {
               Eu e minha equipe pensamos no preço do curso para você poder
               participar, independentemente do seu orçamento. A vista o curso
               sai por R$549.00, e você pode parcelar em até 4x de R$145,90, uma
-              verdadeira oferta imperdível, para priorizar já a sua liderança!
+              verdadeira oferta imperdível, para{" "}
+              <span style={{ fontWeight: "bold" }}>priorizar</span> já a sua
+              liderança!
             </p>
           </div>
         </div>
@@ -66,11 +70,24 @@ export const Secao3 = () => {
               ser aperfeiçoado. Ninguém nasce 100% desenvolvido, é nossa missão
               progredir, mas para isso temos que ir em busca do conhecimento.
               Foi pensando em você, que quer evoluir que eu criei esse curso.
-              Vamos abordar os fundamentos, para você aprender a se observar e
-              se desenvolver efetivamente!
+              Vamos abordar os fundamentos, para você{" "}
+              <span style={{ fontWeight: "bold" }}>
+                aprender a se observar e se desenvolver efetivamente!
+              </span>{" "}
             </p>
           </div>
         </div>
+      </div>
+      <h4>O que eles dizem</h4>
+      <div
+        className={styles.container}
+        style={{ height: "fit-content", gap: "12px" }}
+      >
+        <sub>Ouça o que os meus alunos têm a dizer sobre o curso:</sub>
+        <ReactPlayer
+          style={{ width: "980px", height: "454px" }}
+          url="https://youtu.be/y-5DhZhb4P4"
+        />
       </div>
     </div>
   );
