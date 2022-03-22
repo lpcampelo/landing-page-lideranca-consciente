@@ -23,8 +23,8 @@ export const Secao5 = () => {
                 pergunta1 ? styles.mostrar_resposta : styles.esconder_resposta
               }
             >
-              O curso tem um preço de R$ 549,00 e pode ser parcelado em até 12x
-              de R$ 49,90.
+              O curso tem um preço de R$ 549,00 e pode ser parcelado em até 4x
+              de R$ 145,90.
             </p>
           </div>
           <div className={styles.pergunta} id="pergunta2">
