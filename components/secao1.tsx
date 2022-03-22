@@ -33,7 +33,14 @@ export const Secao1 = () => {
             Quero liderar e me desenvolver!
           </button>
         </div>
-        <div className={styles.container_video}>          
+        <div className={styles.container_video}>
+          <video
+            width="562"
+            height="396"
+            src="/video.mp4"
+            controls
+            controlsList="nodownload"
+          ></video>
         </div>
       </div>
     </div>
