@@ -32,8 +32,8 @@
 .container_fundo_amarelo {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  height: 1145px;
+  justify-content: flex-start;
+  height: 1160px;
   background: linear-gradient(180deg, rgba(245, 221, 1, 0) 0%, #f5dd01 100%);
 
   button {
@@ -103,7 +103,7 @@
 }
 
 .chamada {
-  margin: 32px 0px 16px;
+  margin: 32px 0px 8px;
   font-weight: 500;
   font-size: 22px;
   line-height: 21px;
