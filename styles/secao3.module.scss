@@ -11,6 +11,7 @@
 
 .container_principal {
   display: flex;
+  min-height: fit-content;
   flex-direction: column;
   justify-content: center;
   align-items: center;
