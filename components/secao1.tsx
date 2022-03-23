@@ -29,13 +29,19 @@ export const Secao1 = () => {
             </span>
             e garanta o seu acesso:
           </p>
-          <button onClick={() => click} type="submit">
-            Quero liderar e me desenvolver!
-          </button>
+          <a
+            href="https://go.hotmart.com/L51935249M"
+            rel="noreferrer"
+            target="_self"
+          >
+            <button>
+              Quero liderar e me desenvolver!
+            </button>
+          </a>
         </div>
         <div className={styles.container_video}>
           <video
-            width="562"
+            width="524"
             height="396"
             src="/video.mp4"
             controls

@@ -178,9 +178,15 @@ export const Secao4 = () => {
           </h6>
         </div>
         <div className={styles.container}>
-          <button onClick={() => click} type="submit">
-            Quero garantir minha vaga!
-          </button>
+        <a
+            href="https://go.hotmart.com/L51935249M"
+            rel="noreferrer"
+            target="_self"
+          >
+            <button>
+              Quero garantir minha vaga!
+            </button>
+          </a>
         </div>
       </div>
     </div>
