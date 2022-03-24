@@ -2,6 +2,8 @@
   display: grid;
   place-content: center;
   min-height: 550px;
+  margin-top: -5px;
+  gap: 48px;
   background: linear-gradient(
     180deg,
     #3b1f5c 28.57%,
@@ -10,11 +12,9 @@
   );
 
   h4 {
-    margin: -1px 0px 44px 0px;
-    padding-top: 42.84px;
     color: #f5dd01;
     font-weight: 500;
-    font-size: 29px;
+    font-size: 37px;
     line-height: 35px;
     text-align: center;
     letter-spacing: 0.025em;
@@ -65,9 +65,10 @@
 
 @media screen and (max-width: 980px) {
   .secao1 {
+    gap: 0px;
     h4 {
       font-size: 29px;
-      margin: -5px 0px 44px 0px;
+      margin-top: 40px;
     }
   }
 
