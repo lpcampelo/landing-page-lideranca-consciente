@@ -67,7 +67,7 @@ export const Secao4 = () => {
           </h6>
         </div>
       </div>
-      <div className={styles.container_fundo_amarelo}>
+      <div className={styles.container_inferior}>
         <div className={styles.container}>
           <div className={styles.box_m}>
             <Image

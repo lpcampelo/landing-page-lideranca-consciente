@@ -1,5 +1,4 @@
 .secao2 {
-  margin-top: -250px;
   h4 {
     font-weight: 600;
     font-size: 29px;
@@ -16,14 +15,11 @@
 
 .imagem {
   width: 486px;
-  height: 394px;
-
 }
 
 .texto {
   margin-left: 28px;
   width: 524px;
-  height: 398px;
   text-align: justify;
   font-weight: 400;
   font-size: 14px;
@@ -33,8 +29,8 @@
 
 .frase {
   align-self: center;
-  width: 478px;
-  margin-top: 51px;
+  max-width: 478px;
+  margin-top: 40px;
   text-align: center;
 
   p {
@@ -46,24 +42,27 @@
   }
 }
 
-@media screen and (max-width: 960px) {
-
-  .secao2 {
-    min-width: 420px;
-  }
+@media screen and (max-width: 980px) {
   .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;    
+    align-items: center;
   }
 
   .texto {
-    width: 400px;
+    width: 90vw;
+    min-width: 394px;
+    margin-left: 0px;
   }
 
   .frase {
-    width: 400px;
-    margin-top: 125px;
+    min-width: 362px;
+  }
+
+  .imagem {
+    width: 50vw;
+    min-width: 350px;
+    margin-right: 65px;
   }
 }

@@ -13,7 +13,7 @@ export const Secao5 = () => {
     <div className={styles.secao5}>
       <h4>Perguntas Frequentes (F.A.Q)</h4>
       <div className={styles.container_principal}>
-        <div>
+        <div className={styles.container_secundario}>
           <div className={styles.pergunta} id="pergunta1">
             <a onClick={() => setPergunta1(!pergunta1)}>
               Qual o valor do curso?

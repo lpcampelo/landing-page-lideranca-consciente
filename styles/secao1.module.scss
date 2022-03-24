@@ -1,6 +1,7 @@
 .secao1 {
-  height: 812px;
-  min-width: 1280px;
+  display: grid;
+  place-content: center;
+  min-height: 550px;
   background: linear-gradient(
     180deg,
     #3b1f5c 28.57%,
@@ -23,6 +24,8 @@
 .container_principal {
   display: flex;
   justify-content: center;
+  align-content: center;
+  max-width: 980px;
   gap: 48px;
 }
 
@@ -30,7 +33,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 394px;
+  min-width: 394px;
   color: #ffffff;
   text-align: justify;
   font-size: 14px;
@@ -58,42 +61,11 @@
 
 .video {
   width: 524px;
-  height: 396px;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 980px) {
   .secao1 {
-    min-width: 960px;
-    height: 720px;
-    h4 {      
-      font-size: 24px;
-    }
-  }
-
-  .container_principal {
-    gap: 24px;
-  }
-
-  .container_texto {
-    width: 295px;
-    font-size: 10.5px;
-
-    button {
-      font-size: 9px;
-    }
-  }
-
-  .video {
-    width: 393px;
-    height: 297px;
-  }
-}
-
-@media screen and (max-width: 960px) {
-  .secao1 {
-    min-width: 420px;
-    min-height: 1050px;
-    h4 {      
+    h4 {
       font-size: 29px;
       margin: -5px 0px 44px 0px;
     }
@@ -103,11 +75,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 12px;
+    gap: 24px;
   }
 
   .container_texto {
-    width: 394px;
+    width: 90vw;
+    min-width: 394px;
     font-size: 14px;
     margin-left: 0px;
 
@@ -117,7 +90,7 @@
   }
 
   .video {
-    width: 404px;
-    height: 305px;
+    width: 90vw;
+    min-width: 393px;
   }
 }

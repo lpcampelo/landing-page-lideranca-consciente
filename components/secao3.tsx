@@ -8,7 +8,7 @@ export const Secao3 = () => {
       <h4>Mas Marcela, eu...</h4>
       <div className={styles.container_principal}>
         <div className={styles.container_secundario}>
-          <div className={styles.container} style={{ maxWidth: "500px" }}>
+          <div className={styles.container_superior}>
             <div>
               <Image
                 height="86"
@@ -31,7 +31,7 @@ export const Secao3 = () => {
               pena que duas horas no Netflix procrastinando.
             </p>
           </div>
-          <div className={styles.container} style={{ maxWidth: "500px" }}>
+          <div className={styles.container_superior}>
             <div>
               <Image
                 height="86"
@@ -54,7 +54,7 @@ export const Secao3 = () => {
         <div style={{ display: "flex" }}>
           <div
             className={styles.container}
-            style={{ maxWidth: "1000px", height: "185px" }}
+            style={{ maxWidth: "1000px"}}
           >
             <div>
               <Image
@@ -81,7 +81,7 @@ export const Secao3 = () => {
       <h4>O que eles dizem</h4>
       <div
         className={styles.container}
-        style={{ height: "fit-content", gap: "12px" }}
+        style={{ maxHeight: "none", gap: "12px" }}
       >
         <sub>Ouça o que os meus alunos têm a dizer sobre o curso:</sub>
         <iframe

@@ -1,4 +1,6 @@
 .secao4 {
+  background: linear-gradient(180deg, rgba(245, 221, 1, 0) 0%, #f5dd01 100%);
+  background-position: 100%;
   h4 {
     margin: 50px 0px 0px;
     font-weight: 600;
@@ -15,8 +17,7 @@
 }
 
 .container_texto {
-  height: 170px;
-  max-width: 562px;
+  max-width: 650px;
 
   p {
     font-weight: 400;
@@ -28,16 +29,16 @@
   }
 }
 
-.container_fundo_amarelo {
+.container_inferior {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  height: 1140px;
-  background: linear-gradient(180deg, rgba(245, 221, 1, 0) 0%, #f5dd01 100%);
+  align-items: center;
+  justify-content: space-evenly;
+  height: 1140px;  
 
   button {
     padding: 8px;
-    margin-top: 10px;
+    margin: 10px 0px 25px;
     min-width: 980px;
     color: #f5dd01;
     font-style: normal;
@@ -107,15 +108,37 @@
   font-size: 22px;
   line-height: 21px;
   letter-spacing: 0.0015em;
+  text-align: center;
   color: #3b1f5c;
+  width: 90vw;
+    min-width: 394px;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 980px) {
   .secao4 {
+    display: grid;
+    justify-items: center;
     button {
-      min-width: 394px;
+      min-width: 90vw;      
     }
   }
+
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .container_texto {
+    width: 90vw;
+    min-width: 394px;
+    height: fit-content;
+  }
+
+  .container_inferior {
+    min-height: 1300px;
+  }
+  
+
   .box {
     margin: 16px 12px 0px 12px;
     display: flex;
@@ -131,18 +154,18 @@
   
     &_s {
       @extend .box;
-      width: 120px;
+      width: 100px;
     }
   
     &_m {
       @extend .box;
-      width: 478px;
+      width: 100px;
     }
   
     &_l {
       @extend .box;
       height: 304px;
-      width: 478px;
+      width: 100px;
     }
   }
 }

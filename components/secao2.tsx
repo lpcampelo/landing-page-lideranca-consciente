@@ -6,7 +6,7 @@ export const Secao2 = () => {
     <div className={styles.secao2}>
       <h4>Quem será sua professora?</h4>
       <div className={styles.container}>
-        <div>
+        <div className={styles.imagem}>
           <Image
             width="486"
             height="394"
