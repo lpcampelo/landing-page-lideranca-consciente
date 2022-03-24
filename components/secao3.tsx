@@ -53,8 +53,7 @@ export const Secao3 = () => {
         </div>
         <div style={{ display: "flex" }}>
           <div
-            className={styles.container}
-            style={{ maxWidth: "1000px"}}
+            className={styles.container_inferior}
           >
             <div>
               <Image
