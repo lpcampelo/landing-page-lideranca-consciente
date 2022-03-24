@@ -1,9 +1,11 @@
+import useEmblaCarousel from "embla-carousel-react";
 import Image from "next/image";
 import { useState } from "react";
 import styles from "../styles/secao4.module.scss";
 
 export const Secao4 = () => {
-  const [click, setClick] = useState(false);
+  const [emblaRef] = useEmblaCarousel();
+
   return (
     <div className={styles.secao4}>
       <h4>A melhor hora para se desenvolver? Agora!</h4>
@@ -25,6 +27,94 @@ export const Secao4 = () => {
         </div>
       </div>
       <div className={styles.container}>
+        <div className={styles.embla} ref={emblaRef}>
+          <div className={styles.embla__container}>
+            <div className={styles.embla__slide}>
+              {" "}
+              <div className={styles.box_s}>
+                <Image
+                  width="86"
+                  height="86"
+                  alt="mentoria"
+                  src="/icone-presente.png"
+                />
+                <h6>
+                  Uma mentoria em grupo,
+                  <span style={{ fontWeight: "bold" }}> exclusiva </span> para
+                  aqueles que comprarem nas primeiras
+                  <span style={{ fontWeight: "bold" }}> 24 horas </span>
+                </h6>
+              </div>
+            </div>
+            <div className={styles.embla__slide}>
+              <div className={styles.box_s}>
+                <Image
+                  width="86"
+                  height="86"
+                  alt="apostila"
+                  src="/icone-presente.png"
+                />
+                <h6>
+                  Uma <span style={{ fontWeight: "bold" }}> apostila </span>
+                  complementar ao curso
+                </h6>
+              </div>
+            </div>
+            <div className={styles.embla__slide}>
+              <div className={styles.box_s}>
+                <Image
+                  width="86"
+                  height="86"
+                  alt="certificado"
+                  src="/icone-presente.png"
+                />
+                <h6>
+                  Ao encerrar o curso, te entregarei um
+                  <span style={{ fontWeight: "bold" }}>
+                    {" "}
+                    certificado de conclusão
+                  </span>
+                </h6>
+              </div>
+            </div>
+            <div className={styles.embla__slide}>
+              <div className={styles.box_s}>
+                <Image
+                  width="86"
+                  height="86"
+                  alt="grupo-WhatsApp"
+                  src="/icone-presente.png"
+                />
+                <h6>
+                  Um
+                  <span style={{ fontWeight: "bold" }}>
+                    {" "}
+                    grupo de WhatsApp{" "}
+                  </span>
+                  para eu acompanhar de perto os alunos durante o curso
+                </h6>
+              </div>
+            </div>
+            <div className={styles.embla__slide}>
+              {" "}
+              <div className={styles.box_s}>
+                <Image
+                  width="86"
+                  height="86"
+                  alt="aulas-especiais"
+                  src="/icone-presente.png"
+                />
+                <h6>
+                  <span style={{ fontWeight: "bold" }}>Quatro aulas </span>
+                  especiais, sobre: a liderança do novo mundo, eneagrama,
+                  comunicação assertiva e inteligência emocional
+                </h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className={styles.container_boxes}>
         <div className={styles.box_s}>
           <Image
             width="86"
@@ -68,7 +158,7 @@ export const Secao4 = () => {
         </div>
       </div>
       <div className={styles.container_inferior}>
-        <div className={styles.container}>
+        <div className={styles.container_boxes}>
           <div className={styles.box_m}>
             <Image
               width="86"
@@ -102,7 +192,7 @@ export const Secao4 = () => {
             liderança consciente e do desenvolvimento pessoal:
           </h4>
         </div>
-        <div className={styles.container}>
+        <div className={styles.container_aulas}>
           <div className={styles.box_l}>
             <Image
               width="86"
@@ -138,7 +228,7 @@ export const Secao4 = () => {
             </p>
           </div>
         </div>
-        <div className={styles.container}>
+        <div className={styles.container_aulas}>
           <div className={styles.box_l}>
             <Image
               width="86"
@@ -178,14 +268,12 @@ export const Secao4 = () => {
           </h6>
         </div>
         <div className={styles.container}>
-        <a
+          <a
             href="https://go.hotmart.com/L51935249M"
             rel="noreferrer"
             target="_self"
           >
-            <button>
-              Quero garantir minha vaga!
-            </button>
+            <button>Quero garantir minha vaga!</button>
           </a>
         </div>
       </div>
