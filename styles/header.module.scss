@@ -2,7 +2,7 @@
   background: #3b1f5c;
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   position: static;
   height: 57.16px;
@@ -10,18 +10,9 @@
 
 .container_logo {
   display: flex;
-  flex: 1 1 auto;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  margin-top: 15px;
   height: inherit;
-
-  img {
-    &:hover {
-      transition: all 0.2s ease-out;
-      opacity: 0.7;
-    }
-  }
 }
 
 .container_botoes {
@@ -30,16 +21,23 @@
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
-  max-width: fit-content;
+  max-width: 160px;
+  margin-top: 8px;
   position: static;
+  color: #f5dd01;
 
-  > a {
+  a {
     min-width: fit-content;
     padding: 8px;
-  }
-}
+    font-size: 24px;
 
-.menu_icon {
-  position: absolute;
-  color: #ffffff;
+    &:hover {
+      transition: all 0.2s ease-out;
+      opacity: 0.7;
+    }
+  }
+
+  i {
+    font-size: 17px;
+  }
 }
