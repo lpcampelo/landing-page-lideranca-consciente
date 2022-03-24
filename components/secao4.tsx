@@ -187,12 +187,12 @@ export const Secao4 = () => {
           </div>
         </div>
         <div className={styles.container}>
-          <h4 style={{ maxWidth: "980px", margin: "32px 0px 0px;" }}>
+          <h4 style={{ maxWidth: "980px", margin: "32px 0px 0px;", fontSize: "28px" }}>
             No curso, vamos aprofundar o conhecimento nos quatro pilares da
             liderança consciente e do desenvolvimento pessoal:
           </h4>
         </div>
-        <div className={styles.container_aulas}>
+        <div className={styles.container_aulas} style={{ marginTop: "14px" }}>
           <div className={styles.box_l}>
             <Image
               width="86"
@@ -220,7 +220,7 @@ export const Secao4 = () => {
             </div>
             <h6>Aula 2 - Autoconhecimento</h6>
             <p>
-              Passaremos por um processo de autoconhecimento, tirando o melhor
+              Passaremos por um processo de autoconhecimento, por meio do Eneagrama, tirando o melhor
               de você para influenciar positivamente na sua liderança
             </p>
             <p style={{ fontWeight: "600", letterSpacing: "0.0015em" }}>
