@@ -21,14 +21,14 @@
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
-  max-width: 160px;
+  max-width: 185px;
   margin-top: 8px;
   position: static;
   color: #f5dd01;
 
   a {
     min-width: fit-content;
-    padding: 8px;
+    padding: 9px;
     font-size: 24px;
 
     &:hover {
@@ -38,6 +38,6 @@
   }
 
   i {
-    font-size: 17px;
+    font-size: 21px;
   }
 }

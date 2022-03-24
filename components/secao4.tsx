@@ -187,7 +187,7 @@ export const Secao4 = () => {
           </div>
         </div>
         <div className={styles.container}>
-          <h4 style={{ maxWidth: "980px", margin: "32px 0px 0px;", fontSize: "28px" }}>
+          <h4 style={{ maxWidth: "980px", margin: "32px 0px 0px", fontSize: "28px" }}>
             No curso, vamos aprofundar o conhecimento nos quatro pilares da
             liderança consciente e do desenvolvimento pessoal:
           </h4>
