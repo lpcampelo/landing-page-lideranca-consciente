@@ -41,6 +41,7 @@ export const Secao1 = () => {
           <video
             className={styles.video}
             src="/video.mp4"
+            preload="metadata"
             controls
             controlsList="nodownload"
           ></video>
