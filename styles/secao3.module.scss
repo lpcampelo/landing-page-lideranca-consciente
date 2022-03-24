@@ -20,6 +20,10 @@
   background-position: center;
 }
 
+.container_secundario {
+  display: flex;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -45,5 +49,22 @@
     letter-spacing: 0.005em;
     text-align: justify;
     color: #1c0f2c;
+  }
+}
+
+.video {
+  width: 650px;
+  height: 454px;
+}
+
+@media screen and (max-width: 960px) {
+  .container_secundario {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .video {
+    width: 404px;
+    height: 305px;
   }
 }

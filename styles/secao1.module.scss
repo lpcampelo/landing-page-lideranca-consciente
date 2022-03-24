@@ -1,5 +1,6 @@
 .secao1 {
   height: 812px;
+  min-width: 1280px;
   background: linear-gradient(
     180deg,
     #3b1f5c 28.57%,
@@ -55,7 +56,68 @@
   }
 }
 
-.container_video {
-  width: 500px;
+.video {
+  width: 524px;
   height: 396px;
+}
+
+@media screen and (max-width: 1280px) {
+  .secao1 {
+    min-width: 960px;
+    height: 720px;
+    h4 {      
+      font-size: 24px;
+    }
+  }
+
+  .container_principal {
+    gap: 24px;
+  }
+
+  .container_texto {
+    width: 295px;
+    font-size: 10.5px;
+
+    button {
+      font-size: 9px;
+    }
+  }
+
+  .video {
+    width: 393px;
+    height: 297px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .secao1 {
+    min-width: 420px;
+    min-height: 1050px;
+    h4 {      
+      font-size: 29px;
+      margin: -5px 0px 44px 0px;
+    }
+  }
+
+  .container_principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .container_texto {
+    width: 394px;
+    font-size: 14px;
+    margin-left: 0px;
+
+    button {
+      font-size: 9px;
+    }
+  }
+
+  .video {
+    width: 404px;
+    height: 305px;
+  }
 }

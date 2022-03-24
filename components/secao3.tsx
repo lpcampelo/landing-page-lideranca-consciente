@@ -1,13 +1,13 @@
 import Image from "next/image";
 import ReactPlayer from "react-player";
-import styles from "../styles/secao3.module.scss"
+import styles from "../styles/secao3.module.scss";
 
 export const Secao3 = () => {
   return (
     <div className={styles.secao3}>
       <h4>Mas Marcela, eu...</h4>
       <div className={styles.container_principal}>
-        <div style={{ display: "flex" }}>
+        <div className={styles.container_secundario}>
           <div className={styles.container} style={{ maxWidth: "500px" }}>
             <div>
               <Image
@@ -84,10 +84,10 @@ export const Secao3 = () => {
         style={{ height: "fit-content", gap: "12px" }}
       >
         <sub>Ouça o que os meus alunos têm a dizer sobre o curso:</sub>
-        <ReactPlayer
-          style={{ width: "980px", height: "454px" }}
-          url="https://youtu.be/y-5DhZhb4P4"
-        />
+        <iframe
+          className={styles.video}
+          src="https://www.youtube.com/embed/y-5DhZhb4P4"
+        ></iframe>
       </div>
     </div>
   );

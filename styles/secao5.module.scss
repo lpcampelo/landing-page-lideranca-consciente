@@ -56,3 +56,11 @@
     margin: 16px 0px 0px;
   }
 }
+
+@media screen and (max-width: 960px) {
+  .secao5 {
+    .pergunta {
+      width: 400px;
+    }
+  }
+}

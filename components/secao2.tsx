@@ -6,12 +6,14 @@ export const Secao2 = () => {
     <div className={styles.secao2}>
       <h4>Quem será sua professora?</h4>
       <div className={styles.container}>
-        <Image
-          width="486"
-          height="394"
-          alt="moldura"
-          src="/marcela-moldura.png"
-        />
+        <div>
+          <Image
+            width="486"
+            height="394"
+            alt="moldura"
+            src="/marcela-moldura.png"
+          />
+        </div>
         <div className={styles.texto}>
           <p>
             Olá! Meu nome é Marcela França, criadora do perfil

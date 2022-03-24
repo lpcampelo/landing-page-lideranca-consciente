@@ -34,15 +34,12 @@ export const Secao1 = () => {
             rel="noreferrer"
             target="_self"
           >
-            <button>
-              Quero liderar e me desenvolver!
-            </button>
+            <button>Quero liderar e me desenvolver!</button>
           </a>
         </div>
-        <div className={styles.container_video}>
+        <div>
           <video
-            width="524"
-            height="396"
+            className={styles.video}
             src="/video.mp4"
             controls
             controlsList="nodownload"

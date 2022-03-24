@@ -14,6 +14,12 @@
   justify-content: center;
 }
 
+.imagem {
+  width: 486px;
+  height: 394px;
+
+}
+
 .texto {
   margin-left: 28px;
   width: 524px;
@@ -37,5 +43,27 @@
     font-size: 21px;
     line-height: 26px;
     color: #1c0f2c;
+  }
+}
+
+@media screen and (max-width: 960px) {
+
+  .secao2 {
+    min-width: 420px;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+  }
+
+  .texto {
+    width: 400px;
+  }
+
+  .frase {
+    width: 400px;
+    margin-top: 125px;
   }
 }

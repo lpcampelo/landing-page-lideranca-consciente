@@ -22,7 +22,6 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
-    text-align: center;
     letter-spacing: 0.005em;
     text-align: center;
     color: #1c0f2c;
@@ -33,7 +32,7 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  height: 1160px;
+  height: 1140px;
   background: linear-gradient(180deg, rgba(245, 221, 1, 0) 0%, #f5dd01 100%);
 
   button {
@@ -109,4 +108,41 @@
   line-height: 21px;
   letter-spacing: 0.0015em;
   color: #3b1f5c;
+}
+
+@media screen and (max-width: 960px) {
+  .secao4 {
+    button {
+      min-width: 394px;
+    }
+  }
+  .box {
+    margin: 16px 12px 0px 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    position: static;
+    background: #1c0f2c;
+    border-radius: 10px;
+    height: 253px;
+    color: #f5dd01;
+  
+    &_s {
+      @extend .box;
+      width: 120px;
+    }
+  
+    &_m {
+      @extend .box;
+      width: 478px;
+    }
+  
+    &_l {
+      @extend .box;
+      height: 304px;
+      width: 478px;
+    }
+  }
 }
