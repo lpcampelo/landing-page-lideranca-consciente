@@ -83,6 +83,8 @@ export const Secao3 = () => {
       >
         <sub>Ouça o que os meus alunos têm a dizer sobre o curso:</sub>
         <iframe
+          width="650"
+          height="400"
           className={styles.video}
           loading="lazy"
           src="https://www.youtube.com/embed/y-5DhZhb4P4"
