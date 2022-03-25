@@ -87,7 +87,7 @@ export const Secao3 = () => {
           height="400"
           className={styles.video}
           loading="lazy"
-          src="https://www.youtube.com/embed/y-5DhZhb4P4"
+          srcDoc="https://www.youtube.com/embed/y-5DhZhb4P4"
         ></iframe>
       </div>
     </div>
