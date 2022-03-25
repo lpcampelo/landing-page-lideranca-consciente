@@ -3,6 +3,21 @@ import Script from "next/script";
 import ReactPlayer from "react-player";
 import styles from "../styles/secao3.module.scss";
 
+function init() {
+  var vidDefer = document.getElementsByTagName("iframe");
+  for (var i = 0; i < vidDefer.length; i++) {
+    if (vidDefer[i].getAttribute("data-src")) {
+      vidDefer[i].setAttribute(
+        "src",
+        vidDefer[i].getAttribute("data-src") || ""
+      );
+    }
+  }
+}
+if (typeof window !== "undefined") {
+  window.onload = init;
+}
+
 export const Secao3 = () => {
   return (
     <div className={styles.secao3}>
@@ -87,7 +102,7 @@ export const Secao3 = () => {
           height="400"
           className={styles.video}
           loading="lazy"
-          srcDoc="https://www.youtube.com/embed/y-5DhZhb4P4"
+          data-src="https://www.youtube.com/embed/y-5DhZhb4P4"
         ></iframe>
       </div>
     </div>
