@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Script from "next/script";
 import ReactPlayer from "react-player";
 import styles from "../styles/secao3.module.scss";
 
@@ -52,9 +53,7 @@ export const Secao3 = () => {
           </div>
         </div>
         <div style={{ display: "flex" }}>
-          <div
-            className={styles.container_inferior}
-          >
+          <div className={styles.container_inferior}>
             <div>
               <Image
                 height="86"
@@ -85,6 +84,7 @@ export const Secao3 = () => {
         <sub>Ouça o que os meus alunos têm a dizer sobre o curso:</sub>
         <iframe
           className={styles.video}
+          loading="lazy"
           src="https://www.youtube.com/embed/y-5DhZhb4P4"
         ></iframe>
       </div>
