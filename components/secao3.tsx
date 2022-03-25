@@ -83,14 +83,7 @@ export const Secao3 = () => {
       >
         <sub>Ouça o que os meus alunos têm a dizer sobre o curso:</sub>
         <div>
-<!--           <video
-            className={styles.video}
-            width="214"
-            src="/depoimentos.mp4#t=0.001"
-            preload="metadata"
-            controls
-            controlsList="nodownload"
-          ></video> -->
+         
         </div>
       </div>
     </div>
