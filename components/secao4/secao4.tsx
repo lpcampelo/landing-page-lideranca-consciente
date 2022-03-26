@@ -27,6 +27,7 @@ export const Secao4 = () => {
       <div className={styles.container_boxes}>
         <div className={styles.box_s}>
           <Image
+            priority
             width="86"
             height="86"
             alt="mentoria"
@@ -41,6 +42,7 @@ export const Secao4 = () => {
         </div>
         <div className={styles.box_s}>
           <Image
+            priority
             width="86"
             height="86"
             alt="apostila"
@@ -53,6 +55,7 @@ export const Secao4 = () => {
         </div>
         <div className={styles.box_s}>
           <Image
+            priority
             width="86"
             height="86"
             alt="certificado"
@@ -71,6 +74,7 @@ export const Secao4 = () => {
         <div className={styles.container_boxes}>
           <div className={styles.box_m}>
             <Image
+              priority
               width="86"
               height="86"
               alt="grupo-WhatsApp"
@@ -84,6 +88,7 @@ export const Secao4 = () => {
           </div>
           <div className={styles.box_m}>
             <Image
+              priority
               width="86"
               height="86"
               alt="aulas-especiais"
@@ -97,7 +102,13 @@ export const Secao4 = () => {
           </div>
         </div>
         <div className={styles.container}>
-          <h4 style={{ maxWidth: "980px", margin: "32px 0px 0px", fontSize: "28px" }}>
+          <h4
+            style={{
+              maxWidth: "980px",
+              margin: "32px 0px 0px",
+              fontSize: "28px",
+            }}
+          >
             No curso, vamos aprofundar o conhecimento nos quatro pilares da
             liderança consciente e do desenvolvimento pessoal:
           </h4>
@@ -105,6 +116,7 @@ export const Secao4 = () => {
         <div className={styles.container_aulas} style={{ marginTop: "14px" }}>
           <div className={styles.box_l}>
             <Image
+              priority
               width="86"
               height="86"
               alt="questionar"
@@ -120,18 +132,18 @@ export const Secao4 = () => {
             </p>
           </div>
           <div className={styles.box_l}>
-            <div style={{ marginTop: "17px" }}>
-              <Image
-                width="86"
-                height="86"
-                alt="autoconhecimento"
-                src="/icone-yoga.png"
-              />
-            </div>
+            <Image
+              priority
+              width="86"
+              height="86"
+              alt="autoconhecimento"
+              src="/icone-yoga.png"
+            />
             <h6>Aula 2 - Autoconhecimento</h6>
             <p>
-              Passaremos por um processo de autoconhecimento, por meio do Eneagrama, tirando o melhor
-              de você para influenciar positivamente na sua liderança
+              Passaremos por um processo de autoconhecimento, por meio do
+              Eneagrama, tirando o melhor de você para influenciar positivamente
+              na sua liderança
             </p>
             <p style={{ fontWeight: "600", letterSpacing: "0.0015em" }}>
               07/04 de 19:30h às 21:30h
@@ -141,6 +153,7 @@ export const Secao4 = () => {
         <div className={styles.container_aulas}>
           <div className={styles.box_l}>
             <Image
+              priority
               width="86"
               height="86"
               alt="desenvolvimento-pessoal"
@@ -157,6 +170,7 @@ export const Secao4 = () => {
           </div>
           <div className={styles.box_l}>
             <Image
+              priority
               width="86"
               height="86"
               alt="lideranca"

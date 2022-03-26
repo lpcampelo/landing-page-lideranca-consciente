@@ -1,8 +1,6 @@
-import React, { useState, useEffect } from "react";
-import Link from "next/link";
+import React from "react";
 import Image from "next/image";
 import styles from "../styles/header.module.scss";
-import { Botao } from "./botao";
 
 export const Header = () => {
   return (

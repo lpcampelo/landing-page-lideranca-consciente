@@ -70,9 +70,9 @@
   margin: 16px 12px 0px 12px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-  padding: 20px;
+  padding: 30px;
   position: static;
   background: #1c0f2c;
   border-radius: 10px;
@@ -156,6 +156,10 @@
 
   .container_inferior {
     min-height: 1300px;
+  }
+
+  .box {
+    padding: 20px;
   }
 
   .embla {

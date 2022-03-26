@@ -8,6 +8,7 @@ export const Secao2 = () => {
       <div className={styles.container}>
         <div className={styles.imagem}>
           <Image
+            priority
             width="486"
             height="394"
             alt="moldura"

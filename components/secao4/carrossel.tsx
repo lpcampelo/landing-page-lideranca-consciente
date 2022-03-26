@@ -12,6 +12,7 @@ export function Carrossel() {
             {" "}
             <div className={styles.box_s}>
               <Image
+                priority
                 width="86"
                 height="86"
                 alt="mentoria"
@@ -28,6 +29,7 @@ export function Carrossel() {
           <div className={styles.embla__slide}>
             <div className={styles.box_s}>
               <Image
+                priority
                 width="86"
                 height="86"
                 alt="apostila"
@@ -42,6 +44,7 @@ export function Carrossel() {
           <div className={styles.embla__slide}>
             <div className={styles.box_s}>
               <Image
+                priority
                 width="86"
                 height="86"
                 alt="certificado"
@@ -59,6 +62,7 @@ export function Carrossel() {
           <div className={styles.embla__slide}>
             <div className={styles.box_s}>
               <Image
+                priority
                 width="86"
                 height="86"
                 alt="grupo-WhatsApp"
@@ -66,10 +70,7 @@ export function Carrossel() {
               />
               <h6>
                 Um
-                <span style={{ fontWeight: "bold" }}>
-                  {" "}
-                  grupo de WhatsApp{" "}
-                </span>
+                <span style={{ fontWeight: "bold" }}> grupo de WhatsApp </span>
                 para eu acompanhar de perto os alunos durante o curso
               </h6>
             </div>
@@ -78,6 +79,7 @@ export function Carrossel() {
             {" "}
             <div className={styles.box_s}>
               <Image
+                priority
                 width="86"
                 height="86"
                 alt="aulas-especiais"
@@ -93,5 +95,5 @@ export function Carrossel() {
         </div>
       </div>
     </div>
-  )
+  );
 }

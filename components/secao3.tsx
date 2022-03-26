@@ -1,6 +1,4 @@
 import Image from "next/image";
-import Script from "next/script";
-import ReactPlayer from "react-player";
 import styles from "../styles/secao3.module.scss";
 
 export const Secao3 = () => {
@@ -12,6 +10,7 @@ export const Secao3 = () => {
           <div className={styles.container_superior}>
             <div>
               <Image
+                priority
                 height="86"
                 width="86"
                 alt="icone-tempo"
@@ -35,6 +34,7 @@ export const Secao3 = () => {
           <div className={styles.container_superior}>
             <div>
               <Image
+                priority
                 height="86"
                 width="86"
                 alt="icone-dinheiro"
@@ -56,6 +56,7 @@ export const Secao3 = () => {
           <div className={styles.container_inferior}>
             <div>
               <Image
+                priority
                 height="86"
                 width="86"
                 alt="icone-cabeca"
@@ -83,14 +84,14 @@ export const Secao3 = () => {
       >
         <sub>Ouça o que os meus alunos têm a dizer sobre o curso:</sub>
         <div>
-           <video
+          <video
             className={styles.video}
             width="214"
             src="/depoimentos.mp4#t=0.001"
             preload="metadata"
             controls
             controlsList="nodownload"
-          ></video>         
+          ></video>
         </div>
       </div>
     </div>
