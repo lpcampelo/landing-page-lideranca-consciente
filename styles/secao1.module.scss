@@ -1,9 +1,10 @@
 .secao1 {
   display: grid;
   place-content: center;
-  min-height: 550px;
-  margin-top: -5px;
-  gap: 48px;
+  align-content: flex-start;
+  min-height: 750px;
+  margin-top: -2px;
+  margin-bottom: -240px;
   background: linear-gradient(
     180deg,
     #3b1f5c 28.57%,
@@ -14,19 +15,19 @@
   h4 {
     color: #f5dd01;
     font-weight: 500;
-    font-size: 37px;
+    font-size: 34px;
     line-height: 35px;
     text-align: center;
     letter-spacing: 0.025em;
+    margin-top: 60px;
   }
 }
 
 .container_principal {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-content: center;
-  max-width: 980px;
-  gap: 48px;
+  max-width: 1024px;
 }
 
 .container_texto {
@@ -39,7 +40,6 @@
   font-size: 14px;
   font-weight: 300;
   letter-spacing: 0.015em;
-  margin-left: 38px;
 
   button {
     padding: 8px;
@@ -61,14 +61,14 @@
 
 .video {
   width: 524px;
+  margin-left: 48px;
 }
 
 @media screen and (max-width: 980px) {
   .secao1 {
-    gap: 0px;
     h4 {
       font-size: 29px;
-      margin-top: 40px;
+      margin-top: 50px;
     }
   }
 
