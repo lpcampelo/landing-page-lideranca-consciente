@@ -87,7 +87,7 @@ export const Secao3 = () => {
             className={styles.video}
             width="214"
             src="/depoimentos.mp4#t=0.001"
-            preload="none"
+            preload="metadata"
             controls
             controlsList="nodownload"
           ></video>         
