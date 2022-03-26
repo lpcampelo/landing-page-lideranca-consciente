@@ -16,6 +16,7 @@ export const Header = () => {
               alt="assinatura"
               layout="intrinsic"
               objectFit="contain"
+              priority
             />
           </div>
           <div className={styles.container_botoes}>
