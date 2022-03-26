@@ -66,6 +66,7 @@
 
 @media screen and (max-width: 980px) {
   .secao1 {
+    margin-bottom: 0px;
     h4 {
       font-size: 29px;
       margin-top: 50px;
@@ -89,5 +90,6 @@
   .video {
     width: 90vw;
     min-width: 393px;
+    margin-left: 0px;
   }
 }
